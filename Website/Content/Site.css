@@ -255,11 +255,10 @@ nav.main ul li {
 }
 
 nav.main ul li.current a {
-    background-color: #e4f1f7;
-    border: 1px solid #ebf2f5;
+    background-color: #FFF;
+    border: 1px solid #C4D600;
     border-bottom: none;
-    border-top: 1px solid #fff;
-    color: #195670;
+    color: #8E0B56;
     height: 46px;
     line-height: 44px;
     position: relative;
@@ -275,6 +274,7 @@ nav.main ul a {
     color: #fff;
     display: block;
     font-size: 1.2em;
+    font-weight: bold;
     height: 42px;
     line-height: 44px;
             
@@ -355,9 +355,28 @@ nav.main ul a:hover {
 
     /* Logo */
 
-#logo {
+#sumtotal-logo {
     float: left;
     padding: 20px 20px 0 0;
+}
+
+#sumtotal-logo a {
+    background: url(../Content/Images/SumTotalLogo.png) no-repeat;
+    display: block;
+    height: 68px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    width: 165px;
+}
+
+#logo {
+    position: relative;
+    left: 50%;
+    width: 345px;
+    top: 20px;
+    float: left;
+    margin-left: -345px;
 }
 
 #logo a {
@@ -382,7 +401,7 @@ nav.main ul a:hover {
 }
 
 .user-display a {
-    color: #fff;
+    color: #4a2365;
     margin-left: 10px;
 }
 
@@ -424,7 +443,7 @@ hgroup.page-heading h2 { padding-left: 7px; }
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     background-color: rgb(246, 246, 246);
-    border: solid 1px #dedede;
+    border: solid 1px #C4D600;
     border-radius: 3px;
     margin: 10px auto;
     padding: 20px 10px 0 10px;
@@ -1412,8 +1431,8 @@ input:focus ~ .field-validation-error ~ .field-hint-message { display: none; }
 .clear-fix { clear: both; }
 
 #layout-footer {
-    background: #e4f1f7;
-    border-top: 1px solid #d3e7fe;
+    background: #B3B4B2;
+    border-top: 1px solid #C4D600;
     clear: both;
     color: #3e483c;
     padding-bottom: 1em;
@@ -1456,6 +1475,7 @@ footer#footer ul.recommended li {
 }
 
 footer#footer ul.recommended li a {
+    color: #8E0B56;
     display: block;
     font-size: 1.3em;
 }

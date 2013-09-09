@@ -996,6 +996,7 @@
     <Content Include="Content\Images\editProfile.png" />
     <Content Include="Content\Images\managePackages.png" />
     <Content Include="Content\Images\outercurve.png" />
+    <Content Include="Content\Images\SumTotalLogo.png" />
     <Content Include="Content\Images\treeview\ajax-loader.gif" />
     <Content Include="Content\Images\treeview\file.gif" />
     <Content Include="Content\Images\treeview\folder-closed.gif" />
@@ -1232,9 +1233,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>55880</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://nuget.localtest.me</IISUrl>
+          <IISUrl>http://localhost:55880/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
